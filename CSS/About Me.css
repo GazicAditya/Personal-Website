@@ -1,0 +1,64 @@
+html {
+    background-color:#FEFBF8;
+    }
+    
+    a {
+    text-decoration:none;
+    color:#323031;
+    }
+    
+    body {
+    width:100%;
+    background-color:#FEFBF8;
+    margin:0;
+    }
+    
+    ul.navigation > li {
+    display:inline;
+    float:right;
+    font-family:Castoro;
+    color:#323031;
+    margin-right:70px;
+    font-size:20px;
+    margin-bottom:16px;
+    transition:transform .1s;
+    }
+    
+    ul.navigation > li:hover {
+    display:inherit;
+    transform:scale(1.2);
+    }
+    
+    nav {
+    display:inline;
+    width:100%;
+    margin-right:49px;
+    position:fixed;
+    background-color:rgba(254,251,248,0.8);
+    }
+    
+    nav > .block2 {
+    display:inline;
+    float:left;
+    background-color:#FFE7AE;
+    height:100%;
+    width:150px;
+    position:absolute;
+    margin:0 0 0 214px;
+    }
+
+    ::-webkit-scrollbar {
+    width:5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background:#FEFBF8;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background:#888;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background:#555;
+    }
